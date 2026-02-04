@@ -13,7 +13,7 @@ interface Message {
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'assistant', content: "Hello! I'm your AI assistant. How can I help you today?" }
+    { role: 'assistant', content: "Hello! How can I help you today?" }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
