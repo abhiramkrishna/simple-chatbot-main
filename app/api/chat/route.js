@@ -18,7 +18,7 @@ export async function POST(req) {
       baseURL: "https://openrouter.ai/api/v1",
       defaultHeaders: {
         "HTTP-Referer": "http://localhost:3000", // Required for OpenRouter rankings
-        "X-Title": "Simple Chatbot", // Optional
+        "X-Title": "Chatbot", // Optional
       },
     });
 
