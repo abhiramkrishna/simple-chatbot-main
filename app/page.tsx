@@ -83,8 +83,7 @@ export default function Home() {
             <Bot size={24} className="text-white" />
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Simple Chatbot</h1>
-            <p className="text-xs text-gray-400 font-medium tracking-wide">AI POWERED ASSISTANT</p>
+            <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Chatbot</h1>
           </div>
         </div>
 
